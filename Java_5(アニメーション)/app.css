@@ -1,0 +1,15 @@
+.box1 {
+	display: none;
+	background-color: #FF0000;
+	height: 100px;
+	width: 200px;
+}
+.box2 {
+	display: none;
+	background-color: #0000FF;
+	height: 100px;
+	width: 200px;
+}
+
+
+/*noneで最初は非表示にする。*/
