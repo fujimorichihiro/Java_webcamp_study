@@ -5,9 +5,9 @@ $(".theTarget").skippr({
     // 変化にかかる時間（ミリ秒）
     speed : 1000,
     // easingの種類
-    easing : 'easeOutQuart',
+    easing : 'easOutQuart',
     // ナビゲーションの形（"block" or "bubble"）
-    navType : 'block',
+    navType : 'bubble',
     // 子要素の種類（"div" or "img"）
     childrenElementType : 'div',
     // ナビゲーション矢印の表示（trueで表示）
