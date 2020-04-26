@@ -2,7 +2,7 @@ API_KEY = "bb18000884badadee014bb5bd82b5aca"
 ;
 $(function(){
   $('#btn').on('click', function() {
-　　// 入力された都市名でWebAPIに天気情報をリクエスト
+　　// 入力された都市名でWebAPIに天気情報をリクエストする
     $.ajax({
       url: "http://api.openweathermap.org/data/2.5/weather?q=" + $('#cityname').val() + "&units=metric&appid=" + API_KEY,
       dataType : 'jsonp',
